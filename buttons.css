@@ -1,0 +1,54 @@
+.subscribe {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  width: 105px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.subscribe:hover {
+  opacity: 0.7;
+  transition: all;
+}
+.subscribe:active {
+  background-color: darkgreen;
+}
+.live {
+  background-color: white;
+  color: rgb(41, 118, 211);
+  border-color: rgb(41, 118, 211);
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.live:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.tweet {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.tweet:hover {
+  opacity: 0.7;
+  box-shadow: rgba(1, 2, 1, rgb(0, 0, 0));
+}
